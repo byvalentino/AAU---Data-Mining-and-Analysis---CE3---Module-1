@@ -234,5 +234,3 @@ computing anything that depends on order; and recognises that the defect
 measurement cannot reveal is one where the data is internally consistent and
 means something other than its name says — for which the answer is the data
 dictionary, obtained from whoever owns the field.
-
-<!-- sync-back-test: edited directly in the module repo, expect a PR on the monorepo -->
