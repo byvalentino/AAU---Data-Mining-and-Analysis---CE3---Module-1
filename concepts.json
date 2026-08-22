@@ -1,0 +1,185 @@
+{
+ "module": 1,
+ "concepts": [
+  {
+   "id": "autocorrelation",
+   "name": "lag-k sample autocorrelation",
+   "slide": "Definition — lag-k sample autocorrelation",
+   "formula": "r_k = Σ_{t=k+1}^{n} (x_t − x̄)(x_{t−k} − x̄) / Σ_{t=1}^{n} (x_t − x̄)²",
+   "citation": "Box, Jenkins, Reinsel & Ljung (2015)",
+   "lab": 1,
+   "function": "autocorrelation",
+   "check": "verify/check_01.py"
+  },
+  {
+   "id": "monotone_timestamp",
+   "name": "the monotone-timestamp rule",
+   "slide": "Definition — the monotone-timestamp rule",
+   "formula": "sort by utc_time so that t_{i} ≤ t_{i+1} for every i < n; only then is a lag of k rows a lag of k·Δt in time",
+   "citation": "Box, Jenkins, Reinsel & Ljung (2015)",
+   "lab": 1,
+   "function": "in_time_order",
+   "check": "verify/check_01.py"
+  },
+  {
+   "id": "lag_one_both_ways",
+   "name": "lag one in both orders",
+   "slide": "Definition — the monotone-timestamp rule",
+   "formula": "report r_1 as shipped and r_1 in time order, on the same rows",
+   "citation": "Box, Jenkins, Reinsel & Ljung (2015)",
+   "lab": 1,
+   "function": "lag_one_both_ways",
+   "check": "verify/check_01.py"
+  },
+  {
+   "id": "split_by_time",
+   "name": "a split by time",
+   "slide": "Definition — a split by time, never at random",
+   "formula": "train = {x_t : t < t_c}, test = {x_t : t ≥ t_c} for one cut instant t_c — never a random permutation of the rows",
+   "citation": "Bergmeir & Benítez (2012)",
+   "lab": 1,
+   "function": "split_strategy",
+   "check": "verify/check_01.py"
+  },
+  {
+   "id": "collector",
+   "name": "a correct collector",
+   "slide": "Definition — a correct collector",
+   "formula": "repeat get(day, cursor) until next is None; 429 → sleep(retry_after), then repeat; 500 → repeat, bounded; 404 → raise, never repeat; de-duplicate by record[\"id\"], first wins; every record once, in order",
+   "citation": "Fielding, Nottingham & Reschke (2022)",
+   "lab": 2,
+   "function": "collect",
+   "check": "verify/check_02.py"
+  },
+  {
+   "id": "completeness",
+   "name": "completeness",
+   "slide": "Definition — completeness",
+   "formula": "completeness_j = |{i : x_{ij} is present}| / n, for every column j",
+   "citation": "DAMA UK (2013)",
+   "lab": 3,
+   "function": "profile",
+   "check": "verify/check_03.py"
+  },
+  {
+   "id": "uniqueness",
+   "name": "uniqueness",
+   "slide": "Definition — uniqueness",
+   "formula": "duplicate_rows = n − |distinct rows|; duplicate_vehicle_time = n − |distinct (vehicle_id, utc_time)|",
+   "citation": "DAMA UK (2013)",
+   "lab": 3,
+   "function": "profile",
+   "check": "verify/check_03.py"
+  },
+  {
+   "id": "validity",
+   "name": "validity",
+   "slide": "Definition — validity",
+   "formula": "negative_speed_rows = |{i : speed_i < 0}|; mileage_at_ceiling = |{i : mileage_i = 2^{16} − 1}|",
+   "citation": "DAMA UK (2013)",
+   "lab": 3,
+   "function": "profile",
+   "check": "verify/check_03.py"
+  },
+  {
+   "id": "consistency",
+   "name": "consistency",
+   "slide": "Definition — consistency",
+   "formula": "timestamp_minus_utc_hours = sorted set of (timestamp_i − utc_time_i), in hours, over every row i",
+   "citation": "DAMA UK (2013)",
+   "lab": 3,
+   "function": "profile",
+   "check": "verify/check_03.py"
+  },
+  {
+   "id": "timeliness",
+   "name": "timeliness",
+   "slide": "Definition — timeliness",
+   "formula": "Δt_i = t_{(i+1)} − t_{(i)}, rows sorted by utc_time, within one day; report median Δt and |{i : Δt_i > 60 s}|",
+   "citation": "DAMA UK (2013)",
+   "lab": 3,
+   "function": "profile",
+   "check": "verify/check_03.py"
+  },
+  {
+   "id": "data_dictionary",
+   "name": "the data dictionary, and the profile document",
+   "slide": "Definition — the data dictionary, and the profile you write",
+   "formula": "for every field: unit, source, valid range, owner · DATA_PROFILE.md: one line per measurement, \"- name: value\", five names at least",
+   "citation": "Riley (2017)",
+   "lab": 3,
+   "function": "write_profile",
+   "check": "verify/check_03.py"
+  },
+  {
+   "id": "machine_profile",
+   "name": "the profile a program can read",
+   "slide": "Definition — the profile a program can read",
+   "formula": "declaration = {schema, rows, time_column, expected_step_seconds, step_tolerance_share, columns}, written as out/data_profile.json, one entry per column of the frame, each carrying type, unit, minimum, maximum, max_missing_share",
+   "citation": "Gebru et al. (2021)",
+   "lab": 3,
+   "function": "declare_profile",
+   "check": "verify/check_03.py"
+  },
+  {
+   "id": "profile_applied",
+   "name": "a declaration applied to a day",
+   "slide": "Definition — the profile a program can read",
+   "formula": "check_against(frame, profile) = [] when every declared rule holds, else one line per breach, in the order presence → type → range → missing share → step, each line beginning with the field it concerns",
+   "citation": "Riley (2017)",
+   "lab": 3,
+   "function": "check_against",
+   "check": "verify/check_03.py"
+  },
+  {
+   "id": "fitness_verdict",
+   "name": "the fitness verdict",
+   "slide": "Definition — the fitness verdict",
+   "formula": "verdict(evidence) = (call, reason), call ∈ {use, use with a caveat, do not use}; the reason names ≥ 2 of the five evidence quantities and every number in it is one of them or one of FITNESS_LIMITS; no breach of FITNESS_LIMITS → use; any breach → not use; all five breached → do not use; evidence at least as good on all five → never the harsher call",
+   "citation": "Wang & Strong (1996)",
+   "lab": 3,
+   "function": "fitness_verdict",
+   "check": "verify/check_03.py"
+  },
+  {
+   "id": "atomic_write",
+   "name": "the atomic write: write, flush, fsync, rename, record",
+   "slide": "Definition — write, flush, fsync, rename, record",
+   "formula": "write(tmp) → flush → fsync → os.replace(tmp, path) → record",
+   "citation": "IEEE & The Open Group (2018)",
+   "lab": 4,
+   "function": "land",
+   "check": "verify/check_04.py"
+  },
+  {
+   "id": "checksum_manifest",
+   "name": "the checksum and the manifest",
+   "slide": "Definition — write, flush, fsync, rename, record",
+   "formula": "manifest line = {\"file\": name, \"records\": count, \"sha256\": SHA-256(bytes written)}, one line per distinct (file, sha256)",
+   "citation": "NIST (2015)",
+   "lab": 4,
+   "function": "land",
+   "check": "verify/check_04.py"
+  },
+  {
+   "id": "log_replay",
+   "name": "the log, and replay from a byte offset",
+   "slide": "Definition — the log, and replay from a byte offset",
+   "formula": "replay(log, o) = every record whose first byte lies at position ≥ o, in file order; o is a byte offset, not a record number",
+   "citation": "Kreps (2013)",
+   "lab": 4,
+   "function": "replay",
+   "check": "verify/check_04.py"
+  },
+  {
+   "id": "format_cost",
+   "name": "what a format costs",
+   "slide": "Definition — what a format costs",
+   "formula": "cost(f) = (bytes on disk, seconds to read back, best of three) for f ∈ {csv, csv.gz, parquet}, one frame written once each",
+   "citation": "Zeng, Hui, Shen, Pavlo, McKinney & Zhang (2023)",
+   "lab": 4,
+   "function": "format_cost",
+   "check": "verify/check_04.py"
+  }
+ ]
+}
