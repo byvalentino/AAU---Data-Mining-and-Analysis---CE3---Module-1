@@ -64,9 +64,9 @@ the Digital Omnibus on artificial intelligence
 
 ## The sources behind the definition cards
 
-Every concept a lab grades has a definition card in the deck — the formula, the
-choices, and the source — and the same formula sits in the stub under
-"Definition graded by the check". These are the sources, in the order the labs
+Every concept a lab grades has a definition card in the deck — the definition,
+the choices, and the source — and the stub states the formula the check grades
+under "Definition graded by the check". These are the sources, in the order the labs
 meet them; each is one paragraph on what to read it for.
 
 **Box, G. E. P., Jenkins, G. M., Reinsel, G. C. & Ljung, G. M. (2015). *Time
