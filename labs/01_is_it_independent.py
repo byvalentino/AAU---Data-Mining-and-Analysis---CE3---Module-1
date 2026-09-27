@@ -15,7 +15,7 @@ the slide to four decimal places at several lags, on the shipped rows, with a
 fifth of the values removed, and on a series too sparse to answer;
 in_time_order() returns the same rows monotone in utc_time with the index reset
 and the caller's frame untouched; lag_one_both_ways() returns both numbers, and
-split_strategy() returns "by time".
+split_strategy() returns the strategy those two numbers justify.
 Needs: numpy, pandas, math; lab_support.load_slice; for the demonstration _narrate and
     plotly.
 

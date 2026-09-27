@@ -14,7 +14,7 @@ profile you write", "Definition — the profile a program can read" and
 "Definition — the fitness verdict".
 What the check grades: profile() returns the five sections with the exact
 counts and ratios the check measures itself on the same slice (median interval
-to a thousandth of a second, counts exactly, the offset set equal to [1.0]),
+to a thousandth of a second, counts exactly, the offset as a list of the hours it measures),
 without changing the frame; write_profile() writes DATA_PROFILE.md with the
 five "- name: value" lines the check parses; declare_profile() writes
 out/data_profile.json in the schema HANDOFF.md fixes; check_against() is silent
