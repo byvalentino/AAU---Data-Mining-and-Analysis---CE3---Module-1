@@ -1,0 +1,1315 @@
+{
+ "about": "Every picture on a shown slide of the deck (hidden slides 30 and 77 are skipped; the backup slides 84-123 are included), and where the notebook draws it. Entries marked 'shapes', and the formula images that fill shapes rather than sit in picture frames, are listed too. Checked by tools/check_notebook_sources.py.",
+ "decks": [
+  "Module1.pptx"
+ ],
+ "elements": [
+  {
+   "deck": "Module1.pptx",
+   "slide": 1,
+   "element": "image21.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of the AAU Copenhagen atrium, title background; carries no data or concept"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 1,
+   "element": "image7.png",
+   "treatment": "excluded",
+   "reason": "Aalborg University logo"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 3,
+   "element": "image22.png",
+   "treatment": "excluded",
+   "reason": "poster frame of the video embedded on the slide (media1.mp4); videos are not reproduced"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 5,
+   "element": "image23.png",
+   "treatment": "excluded",
+   "reason": "photograph of a wind-turbine nacelle (Vestas); a third-party photograph with no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 5,
+   "element": "image24.png",
+   "treatment": "excluded",
+   "reason": "photograph of a trading desk; a third-party photograph with no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 5,
+   "element": "image25.jpeg",
+   "treatment": "excluded",
+   "reason": "montage of medical images from a publication; a third-party figure with no data this course holds"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 5,
+   "element": "image26.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a tablet showing a streaming service; a third-party photograph with no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 5,
+   "element": "image27.png",
+   "treatment": "excluded",
+   "reason": "stock illustration of a smart city; no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 5,
+   "element": "image28.jpeg",
+   "treatment": "excluded",
+   "reason": "screenshot of a television weather forecast; a broadcaster's image with no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 6,
+   "element": "image29.jpeg",
+   "treatment": "excluded",
+   "reason": "stock illustration (animal testing); no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 6,
+   "element": "image30.jpeg",
+   "treatment": "excluded",
+   "reason": "stock illustration (GDPR); no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 7,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 7,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 7,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 7,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 7,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 8,
+   "element": "image36.png",
+   "figures": [
+    "data_dictionary"
+   ],
+   "note": "an AI-generated poster; its concept, metadata, is drawn as the slice's data dictionary"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 9,
+   "element": "image37.png",
+   "treatment": "excluded",
+   "reason": "generated grid of data-regime icons; the data-regime grid is dropped by the instructor's rule, and the regimes are listed in the notebook's text"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 10,
+   "element": "image38.png",
+   "treatment": "excluded",
+   "reason": "third-party data-pipeline diagram (Burtch Works); pipeline-layer diagrams are dropped"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 10,
+   "element": "image39.png",
+   "treatment": "excluded",
+   "reason": "third-party data-pipeline diagram (ByteByteGo); pipeline-layer diagrams are dropped"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 11,
+   "element": "image40.png",
+   "treatment": "excluded",
+   "reason": "third-party medallion (bronze/silver/gold) diagram; pipeline-layer diagrams are dropped"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 13,
+   "element": "image41.png",
+   "figures": [
+    "overbooking"
+   ],
+   "equations": [
+    "overbooking"
+   ],
+   "note": "an AI-generated poster; its concept is drawn as the binomial overbooking arithmetic, illustrative"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 13,
+   "element": "shapes",
+   "figures": [
+    "overbooking"
+   ],
+   "equations": [
+    "overbooking"
+   ],
+   "note": "the words \"250\", \"220\" and \"Economy\" over the poster, read as 250 tickets for 220 seats"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 15,
+   "element": "image23.png",
+   "treatment": "excluded",
+   "reason": "photograph of a wind-turbine nacelle (Vestas); a third-party photograph with no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 16,
+   "element": "image24.png",
+   "treatment": "excluded",
+   "reason": "photograph of a trading desk; a third-party photograph with no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 17,
+   "element": "image25.jpeg",
+   "treatment": "excluded",
+   "reason": "montage of medical images from a publication; a third-party figure with no data this course holds"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 18,
+   "element": "image26.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a tablet showing a streaming service; a third-party photograph with no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 19,
+   "element": "image27.png",
+   "treatment": "excluded",
+   "reason": "stock illustration of a smart city; no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 21,
+   "element": "image42.png",
+   "figures": [
+    "route_map"
+   ],
+   "note": "a sketch of the loop with stops A, B and C; drawn from the slice's positions, one panel per day, with measured dwells (not the slide's stops) marked"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 22,
+   "element": "image43.gif",
+   "treatment": "excluded",
+   "reason": "photograph of a trial participant wearing the instrumented phones, from the trial's study; a photograph of a person, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 22,
+   "element": "image44.png",
+   "figures": [
+    "gps_noise"
+   ],
+   "note": "icons of phone and bus localisation; the vehicle's jitter measured, the phone's error illustrative"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 23,
+   "element": "image45.png",
+   "figures": [
+    "timing_uncertainty"
+   ],
+   "equations": [
+    "delta_d"
+   ],
+   "note": "icons of the timing diagram"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 23,
+   "element": "image46.png",
+   "figures": [
+    "timing_uncertainty"
+   ],
+   "equations": [
+    "delta_d"
+   ],
+   "note": "icons of the timing diagram"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 23,
+   "element": "image47.png",
+   "figures": [
+    "timing_uncertainty"
+   ],
+   "equations": [
+    "delta_d"
+   ],
+   "note": "icons of the timing diagram"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 23,
+   "element": "shapes",
+   "figures": [
+    "timing_uncertainty"
+   ],
+   "equations": [
+    "delta_d"
+   ],
+   "note": "the timing diagram and the formulas Δd = ΔGPS + ΔSpeed·ΔT, drawn with shapes and text"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 25,
+   "element": "image48.jpeg",
+   "treatment": "excluded",
+   "reason": "press photograph used as a meme (r/funny); copyrighted, not reproduced"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 26,
+   "element": "image48.jpeg",
+   "treatment": "excluded",
+   "reason": "press photograph used as a meme (r/funny); copyrighted, not reproduced"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 28,
+   "element": "image48.png",
+   "equations": [
+    "autocorrelation_definition"
+   ],
+   "note": "the formula for r_k, rendered as an image"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 29,
+   "element": "image49.png",
+   "treatment": "excluded",
+   "reason": "a rendered text panel repeating the slide's own words (the monotone-timestamp rule and the Lab 1 deliverables); stated in the notebook's text, and its \"(bus.csv)\" label recorded as a discrepancy"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 31,
+   "element": "image50.png",
+   "figures": [
+    "autocorrelation"
+   ],
+   "note": "make_figs.py's own figure function, on the slice"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 36,
+   "element": "image45.png",
+   "figures": [
+    "sampling_rate"
+   ],
+   "note": "icons of person-to-device sensing; the slide's claim about the sampling rate is measured"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 36,
+   "element": "image46.png",
+   "figures": [
+    "sampling_rate"
+   ],
+   "note": "icons of person-to-device sensing; the slide's claim about the sampling rate is measured"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 36,
+   "element": "image51.png",
+   "figures": [
+    "survey_app_architecture"
+   ],
+   "note": "architecture diagram of the survey smartphone application, credited on the slide; redrawn as boxes and labels, illustrative (no data). The slide's claim about the sampling rate is drawn as sampling_rate"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 36,
+   "element": "shapes",
+   "treatment": "excluded",
+   "reason": "text boxes naming person-to-device, person-to-person and device-to-device sensing; stated in words"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 39,
+   "element": "image52.png",
+   "equations": [
+    "collector"
+   ],
+   "note": "the collector's rule, rendered as an image"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 47,
+   "element": "image53.png",
+   "equations": [
+    "completeness"
+   ],
+   "note": "the completeness formula, rendered as an image"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 52,
+   "element": "image54.png",
+   "figures": [
+    "completeness"
+   ],
+   "note": "make_figs.py's own figure function, on the slice"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 55,
+   "element": "image55.png",
+   "figures": [
+    "sampling_gaps"
+   ],
+   "note": "make_figs.py's own figure function, on the slice"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 72,
+   "element": "image56.png",
+   "figures": [
+    "format_cost",
+    "format_cost_on_the_slice"
+   ],
+   "note": "make_figs.py's own function on the archive numbers measured.json stores, and the same measurement repeated live on the slice"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 74,
+   "element": "image57.png",
+   "treatment": "excluded",
+   "reason": "AI-generated infographic (\"Ingesting Trust\") summarising the lecture; no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 84,
+   "element": "image58.png",
+   "treatment": "excluded",
+   "reason": "third-party data-lifecycle diagram; lifecycle diagrams are dropped"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 84,
+   "element": "shapes",
+   "treatment": "excluded",
+   "reason": "the words DECISION, ACTION and DATA LIFECYCLE around the lifecycle diagram; dropped with it"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 85,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 85,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 85,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 85,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 85,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 86,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 86,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 86,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 86,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 86,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 87,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 87,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 87,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 87,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 87,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 88,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 88,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 88,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 88,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 88,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 89,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 89,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 89,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 89,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 89,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 90,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 90,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 90,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 90,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 90,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 91,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 91,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 91,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 91,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 91,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 92,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 92,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 92,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 92,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 92,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 93,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 93,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 93,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 93,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 93,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 94,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 94,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 94,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 94,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 94,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 95,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 95,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 95,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 95,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 95,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 96,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 96,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 96,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 96,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 96,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 97,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 97,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 97,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 97,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 97,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 98,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 98,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 98,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 98,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 98,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 99,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 99,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 99,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 99,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 99,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 100,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 100,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 100,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 100,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 100,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 101,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 101,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 101,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 101,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 101,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 102,
+   "element": "image31.png",
+   "treatment": "excluded",
+   "reason": "photograph of a till receipt; a photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 102,
+   "element": "image32.png",
+   "figures": [
+    "weighted_digraph"
+   ],
+   "note": "a screenshot of a social-network post; the graph is drawn from the adjacency list it prints"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 102,
+   "element": "image33.jpeg",
+   "figures": [
+    "speed_signal"
+   ],
+   "note": "a photograph of a framed sound-wave print; drawn as the slice's speed as a signal"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 102,
+   "element": "image34.jpeg",
+   "treatment": "excluded",
+   "reason": "photograph of a cat and a dog; a stock photograph, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 102,
+   "element": "image35.jpeg",
+   "treatment": "excluded",
+   "reason": "still of the Ames room from a Scientific American video; copyrighted, not redrawn"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 103,
+   "element": "image59.png",
+   "figures": [
+    "iid_vs_series"
+   ],
+   "note": "an AI-generated poster; drawn as the slice's readings in time order and shuffled"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 104,
+   "element": "image59.png",
+   "figures": [
+    "iid_vs_series"
+   ],
+   "note": "an AI-generated poster; drawn as the slice's readings in time order and shuffled"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 105,
+   "element": "image37.png",
+   "treatment": "excluded",
+   "reason": "generated grid of data-regime icons; the data-regime grid is dropped by the instructor's rule, and the regimes are listed in the notebook's text"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 106,
+   "element": "image37.png",
+   "treatment": "excluded",
+   "reason": "generated grid of data-regime icons; the data-regime grid is dropped by the instructor's rule, and the regimes are listed in the notebook's text"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 107,
+   "element": "image37.png",
+   "treatment": "excluded",
+   "reason": "generated grid of data-regime icons; the data-regime grid is dropped by the instructor's rule, and the regimes are listed in the notebook's text"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 108,
+   "element": "image37.png",
+   "treatment": "excluded",
+   "reason": "generated grid of data-regime icons; the data-regime grid is dropped by the instructor's rule, and the regimes are listed in the notebook's text"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 109,
+   "element": "image37.png",
+   "treatment": "excluded",
+   "reason": "generated grid of data-regime icons; the data-regime grid is dropped by the instructor's rule, and the regimes are listed in the notebook's text"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 110,
+   "element": "image37.png",
+   "treatment": "excluded",
+   "reason": "generated grid of data-regime icons; the data-regime grid is dropped by the instructor's rule, and the regimes are listed in the notebook's text"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 111,
+   "element": "image37.png",
+   "treatment": "excluded",
+   "reason": "generated grid of data-regime icons; the data-regime grid is dropped by the instructor's rule, and the regimes are listed in the notebook's text"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 112,
+   "element": "image60.png",
+   "treatment": "excluded",
+   "reason": "AI-generated poster (data sources); no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 113,
+   "element": "image61.png",
+   "treatment": "excluded",
+   "reason": "AI-generated poster (methods of data collection); no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 114,
+   "element": "image62.png",
+   "treatment": "excluded",
+   "reason": "AI-generated poster (cost of bad measurement: a table against custom windows); no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 114,
+   "element": "image63.png",
+   "figures": [
+    "pareto_accuracy_cost"
+   ],
+   "note": "an AI-generated chart with no scale; redrawn from the positions in the picture, illustrative"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 115,
+   "element": "image64.png",
+   "treatment": "excluded",
+   "reason": "AI-generated cartoon (a forecast that was accurate yesterday); no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 116,
+   "element": "image65.png",
+   "treatment": "excluded",
+   "reason": "vendor diagram of REST requests (LambdaTest); the structure an interface returns is drawn from Lab 2's provider as json_record"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 117,
+   "element": "image66.jpeg",
+   "figures": [
+    "json_record"
+   ],
+   "note": "an annotated JSON screenshot; drawn from a page of Lab 2's provider"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 117,
+   "element": "image67.jpeg",
+   "figures": [
+    "json_record"
+   ],
+   "note": "an annotated JSON example; drawn from a page of Lab 2's provider"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 118,
+   "element": "image68.png",
+   "treatment": "excluded",
+   "reason": "AI-generated poster (web scraping terms); no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 119,
+   "element": "image69.png",
+   "treatment": "excluded",
+   "reason": "vendor process diagram of web scraping (AIMultiple); no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 120,
+   "element": "image70.png",
+   "treatment": "excluded",
+   "reason": "screenshot of the author's Wikipedia crawler source; not drawn as a figure: its 22 visible lines are transcribed as text in a markdown code block in the backup section, not run, because the code calls a live third-party service; the contact e-mail address in its User-Agent string is left out"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 121,
+   "element": "image71.jpeg",
+   "figures": [
+    "scraping_funnel"
+   ],
+   "note": "figure from Boegershausen et al. (2022): the three-stage funnel, redrawn with its stage names; illustrative, the questions counted, not copied"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 122,
+   "element": "image72.png",
+   "treatment": "excluded",
+   "reason": "AI-generated poster (legality); no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 123,
+   "element": "image73.png",
+   "treatment": "excluded",
+   "reason": "AI-generated poster (data sources into a table); no data"
+  },
+  {
+   "deck": "Module1.pptx",
+   "slide": 123,
+   "element": "shapes",
+   "treatment": "excluded",
+   "reason": "the words INTEGRATION VIEW and PRODUCT beside a poster; stated in words"
+  }
+ ]
+}

@@ -39,10 +39,6 @@ python3 apply.py            # copy the solutions over labs/ (your work is saved 
 python3 apply.py --restore  # get your own attempt back
 ```
 
-> **The notebook does not run here.** It was executed against the full
-> course archive, which is not distributed. Read it for the measurements
-> and the reasoning; the labs are what you run.
-
 ## Licence
 
 Code is MIT licensed. Teaching material — text, figures, notebooks — is CC BY-NC-SA 4.0. The data slice is vehicle telemetry and identifies nobody.
